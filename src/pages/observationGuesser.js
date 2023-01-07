@@ -6,7 +6,7 @@ const ObservationPage = () => {
   return (
     <div
       style={{
-        width: "50%",
+        width: "51%",
       }}
     >
       <MainContainer>
