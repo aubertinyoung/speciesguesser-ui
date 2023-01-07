@@ -14,5 +14,5 @@ export const OptionsElement = styled.div`
   height: 100%;
   width: 25%;
   padding: 10px;
-  margin: 5px;
+  margin: 5.5px;
 `;
