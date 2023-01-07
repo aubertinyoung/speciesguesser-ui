@@ -7,9 +7,6 @@ const ObservationPage = () => {
     <div
       style={{
         width: "50%",
-        //   display: "flex",
-        //   flexDirection: "center",
-        //   alignItems: "center",
       }}
     >
       <MainContainer>
