@@ -1,8 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
 import ObservationPage from "./pages/observationGuesser";
+import { useState } from "react";
 
 function App() {
+  // const [state, setState] = useState(null);
+
   return (
     <div className="App">
       <div

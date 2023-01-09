@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.correct-answer {
+  /* background: #0be08f; */
+  border: 1px #00613a solid !important;
+  color: white;
+  background: #00965a;
+}
+
+.wrong-answer {
+  border: 1px #ff6347 solid !important;
+  color: #bf1111;
+  opacity: 0.25;
+}
+
+.answer-opt {
+  /* border: 1px grey solid; */
+  transition: transform 0.3s;
+  border: none;
+}
+
+.answer-opt:hover {
+  /* border-radius: 10px; */
+  transform: scale(1.05);
+  /* font-size: 1.3rem; */
+}
+
+/* 
+.answer-opt:hover {
+  animation-name: animate-button-forward;
+  animation-duration: 0.5s;
+}
+
+@keyframes animate-button-forward {
+  0% {
+    border-radius: 5px;
+  }
+
+  100% {
+    border-radius: 25px;
+  }
+} */
